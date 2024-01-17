@@ -1,0 +1,34 @@
+.navigator {
+	display: flex;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 80px;
+	background-color: antiquewhite;
+	z-index: 999;
+    flex-direction: row;
+	
+}
+
+.navigator h1 {
+	margin-right: 100px; /* h1을 왼쪽으로 밀어내어 오른쪽 정렬되도록 설정 */
+	
+  }
+  
+  nav {
+	display: flex;
+	margin-left: auto; /* nav를 오른쪽으로 이동시키도록 설정 */
+	align-items: center;
+  }
+  
+  nav a {
+	margin: 20px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	vertical-align: middle;
+  }
+
+  nav button {
+	margin: 20px
+  }
