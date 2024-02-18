@@ -15,7 +15,7 @@ export default function Article() {
 function ArticleInfo() {
 	return (
 		<div className="articleInfo">
-			<h2 className="publishDate">publishDate</h2>
+			<a className="publishDate">publishDate</a>
 			<a>Category</a>
 		</div>
 	);

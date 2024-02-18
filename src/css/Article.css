@@ -8,12 +8,29 @@
 	text-align: center;
 	background-color: blue;
     flex-direction: column;
+	box-sizing: border-box;
+	padding: 10px;
 }
 
 .article h1 {
-	padding: 10px;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 20px;
+	text-align: left;
+	font-size: 50px;
 }
 
 .article .contents {
 	padding: 10px;
+}
+
+.articleInfo {
+	box-sizing: border-box;
+	text-align: left;
+	width: 100%;
+	padding: 10px;
+}
+
+.articleInfo a {
+	margin: 10px;
 }
